@@ -1,0 +1,1 @@
+function M({monthlyAmount:s,annualReturn:v,years:n}){const e=n*12,c=v/100/12,o=c===0?s*e:s*((Math.pow(1+c,e)-1)/c)*(1+c),t=s*e,p=o-t,d=t>0?p/t*100:0,i=[];for(let a=1;a<=n;a++){const r=a*12,u=c===0?s*r:s*((Math.pow(1+c,r)-1)/c)*(1+c);i.push({year:a,value:Math.round(u),invested:s*r})}return{corpus:o,invested:t,gains:p,returnPct:d,chart:i}}export{M as c};

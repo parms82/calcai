@@ -1,0 +1,47 @@
+[build]
+  base    = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "../netlify/functions"
+  node_bundler = "esbuild"
+
+# ── API redirects → Netlify Functions ──────────────────────────────────────
+[[redirects]]
+  from   = "/api/ai/ask"
+  to     = "/.netlify/functions/ask-ai"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/api/leads"
+  to     = "/.netlify/functions/create-lead"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/api/affiliates/click"
+  to     = "/.netlify/functions/track-click"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/health"
+  to     = "/.netlify/functions/health"
+  status = 200
+  force  = true
+
+# ── SPA fallback — must be last ─────────────────────────────────────────────
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# ── Security headers ────────────────────────────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"

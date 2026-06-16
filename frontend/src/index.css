@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+  /* Larger tap targets on mobile for range inputs */
+  input[type="range"] {
+    @apply cursor-pointer;
+    height: 20px;
+  }
+}
+
+@layer components {
+  .calc-input {
+    @apply w-full rounded-lg border border-gray-300 px-4 py-3 text-sm focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500;
+  }
+  .calc-slider {
+    @apply w-full accent-emerald-600;
+  }
+  .stat-card {
+    @apply rounded-xl bg-white p-4 shadow-sm border border-gray-100;
+  }
+  .btn-primary {
+    /* min 44px tall for mobile tap targets */
+    @apply rounded-lg bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-700 transition-colors;
+  }
+}

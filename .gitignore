@@ -1,0 +1,52 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+**/node_modules/
+
+# ── Python virtual environment ────────────────────────────────────────────────
+.venv/
+backend/.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+frontend/dist/
+build/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+frontend/.env.production
+backend/.env
+
+# ── Python test / package cache ───────────────────────────────────────────────
+.pytest_cache/
+*.egg-info/
+backend/fincalcai.db
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Netlify ───────────────────────────────────────────────────────────────────
+.netlify/
+
+# ── Exported conversation files ───────────────────────────────────────────────
+backend/*.txt

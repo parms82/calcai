@@ -383,7 +383,6 @@ Use our [Income Tax Calculator](/income-tax-calculator) to enter your exact numb
 **Actionable tip**: Run the comparison every year in April when the new financial year starts. The rules can change in the Budget, and your personal situation (income, home loan balance, investments) also changes. What was optimal last year may not be this year.
     `.trim(),
   },
-]
 
   {
     slug: 'ppf-vs-fd-vs-elss',

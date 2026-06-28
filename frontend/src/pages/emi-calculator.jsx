@@ -72,6 +72,36 @@ export default function EmiCalculator() {
         faqs={FAQS}
         pageUrl="/emi-calculator"
         description="Free EMI calculator India. Calculate monthly EMI for home loan, car loan and personal loan instantly."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">Understanding Your EMI Calculation</h2>
+            <p>
+              EMI (Equated Monthly Instalment) is the fixed monthly payment you make toward a loan. It consists
+              of two parts — <strong>principal repayment</strong> and <strong>interest</strong>. In the early months
+              of a loan, the majority of your EMI goes toward interest. As you repay, the interest portion shrinks
+              and principal repayment grows. This is called amortisation.
+            </p>
+            <p>
+              The EMI formula is: <em>EMI = P × r × (1 + r)^n ÷ [(1 + r)^n − 1]</em>, where P is the loan
+              principal, r is the monthly interest rate (annual rate ÷ 12), and n is the tenure in months. Our
+              calculator applies this formula and shows you a year-by-year breakdown chart.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">What Drives the Total Interest Cost?</h3>
+            <p>
+              On a ₹50 Lakh home loan at 9% for 20 years, you pay back <strong>₹1.08 Crores total</strong> —
+              more than double the loan. The single biggest lever is the <strong>interest rate</strong>. A 0.5%
+              rate reduction on this loan saves ₹3.5 Lakhs over the tenure. The second lever is the tenure —
+              a 15-year term instead of 20 years saves ₹15 Lakhs in interest, though your monthly EMI is higher.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">Reducing Your EMI Burden</h3>
+            <p>
+              The most effective strategy is <strong>regular part-prepayment</strong>. Any lump sum — annual
+              bonus, tax refund — applied to the principal directly reduces future interest. Most floating-rate
+              home loans in India have zero prepayment penalty (RBI guideline). Reducing tenure rather than EMI
+              on prepayment saves the most interest.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Loan Amount"         value={loan}   onChange={setLoan}   min={100000} max={10000000} step={50000} prefix="₹" />
         <SliderInput label="Annual Interest Rate" value={rate}   onChange={setRate}   min={5}      max={20}       step={0.1}  suffix="%" />

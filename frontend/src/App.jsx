@@ -16,6 +16,9 @@ const PpfCalculator = lazy(() => import('./pages/ppf-calculator'))
 const Pricing = lazy(() => import('./pages/pricing'))
 const BlogIndex = lazy(() => import('./pages/blog/index'))
 const BlogPost = lazy(() => import('./pages/blog/BlogPost'))
+const About = lazy(() => import('./pages/about'))
+const Contact = lazy(() => import('./pages/contact'))
+const PrivacyPolicy = lazy(() => import('./pages/privacy-policy'))
 
 function PageLoader() {
   return (
@@ -45,6 +48,9 @@ export default function App() {
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/blog" element={<BlogIndex />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             </Routes>
           </Suspense>
         </main>

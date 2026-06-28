@@ -72,6 +72,36 @@ export default function FdCalculator() {
         faqs={FAQS}
         pageUrl="/fd-calculator"
         description="Fixed deposit calculator India. Calculate FD maturity amount and interest with quarterly, monthly or annual compounding."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">How FD Returns Are Calculated</h2>
+            <p>
+              A Fixed Deposit (FD) earns compound interest over its tenure. The maturity amount depends on
+              three variables: the principal, the annual interest rate, and the compounding frequency.
+              Most bank FDs in India use <strong>quarterly compounding</strong>, which means interest is added
+              to the principal every three months, and subsequent interest is earned on this higher balance.
+            </p>
+            <p>
+              The compound interest formula is: <em>A = P × (1 + r/n)^(n×t)</em>, where P is the principal,
+              r is the annual rate, n is the compounding frequency per year, and t is the tenure in years.
+              Quarterly compounding (n=4) gives a slightly higher effective yield than annual compounding for
+              the same stated rate.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">FD Interest Is Taxable</h3>
+            <p>
+              Unlike PPF, FD interest is fully taxable at your income tax slab rate. For someone in the 30%
+              bracket, a 7.5% FD has an effective post-tax return of just <strong>5.25%</strong>. After
+              accounting for ~6% inflation, the real return is negative. FDs are best for short-term goals
+              (1–3 years) and investors in the 0–5% tax bracket (income below ₹3 Lakhs).
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">Senior Citizen FD Rates</h3>
+            <p>
+              Senior citizens (age 60+) typically receive an additional 0.25–0.50% on FD rates. On a
+              ₹10 Lakh FD at 7.5%+0.5% = 8% for 5 years, the extra 0.5% generates approximately
+              ₹26,000 in additional interest — a meaningful benefit for retirees.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Principal Amount"      value={principal} onChange={setPrincipal} min={5000} max={10000000} step={5000}  prefix="₹" />
         <SliderInput label="Annual Interest Rate"  value={rate}      onChange={setRate}      min={3}    max={10}       step={0.1}   suffix="%" />

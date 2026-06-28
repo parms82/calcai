@@ -72,6 +72,36 @@ export default function SipCalculator() {
         faqs={FAQS}
         pageUrl="/sip-calculator"
         description="Free SIP calculator for India. Calculate mutual fund SIP returns, total corpus and wealth gained online."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">How Does a SIP Calculator Work?</h2>
+            <p>
+              A Systematic Investment Plan (SIP) calculator uses the compound interest formula to project how
+              much wealth you can build by investing a fixed amount every month. The key driver is
+              <strong> rupee-cost averaging</strong> — when markets are low your monthly investment buys more
+              units, and when markets are high it buys fewer, automatically smoothing out the price over time.
+            </p>
+            <p>
+              The formula behind the calculation is: <em>FV = P × [(1 + r)^n − 1] ÷ r × (1 + r)</em>, where
+              P is the monthly amount, r is the monthly interest rate, and n is the number of months. Our
+              calculator applies this instantly as you move the sliders.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">What Return Rate Should You Use?</h3>
+            <p>
+              Equity mutual funds (large-cap) have historically delivered <strong>10–12% annualised returns</strong>{' '}
+              over 10-year rolling periods in India. Mid-cap and small-cap funds have delivered 12–15% with higher
+              volatility. For conservative planning, use 10–11%. For an optimistic scenario, use 12–13%. Never
+              assume more than 15% for long-term projections — it overstates your expected corpus.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">SIP vs Lump Sum</h3>
+            <p>
+              SIP is better for salaried investors because it removes the need to time the market and enforces
+              monthly discipline. Lump sum works better if you have a large amount and markets are at a historical
+              low. For most Indians, SIP via automatic bank debit is the simplest path to long-term wealth creation.
+              Even a SIP of ₹2,000 per month at 12% for 20 years grows to over ₹19 Lakhs.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Monthly SIP Amount"     value={monthly} onChange={setMonthly} min={500}  max={100000} step={500}  prefix="₹" />
         <SliderInput label="Expected Annual Return" value={rate}    onChange={setRate}    min={1}    max={30}     step={0.5}  suffix="%" />

@@ -385,6 +385,502 @@ Use our [Income Tax Calculator](/income-tax-calculator) to enter your exact numb
   },
 ]
 
+  {
+    slug: 'ppf-vs-fd-vs-elss',
+    title: 'PPF vs FD vs ELSS: Where Should You Invest in 2024?',
+    date: '2024-06-22',
+    readTime: '7 min read',
+    excerpt: 'A detailed comparison of three popular Indian investment options — PPF, Fixed Deposit, and ELSS mutual funds — covering returns, tax treatment, liquidity, and risk.',
+    keywords: 'PPF vs FD vs ELSS, best investment in India 2024, tax saving investment comparison',
+    relatedCalc: { label: 'Calculate PPF Returns →', path: '/ppf-calculator' },
+    content: `
+## The Three Most Popular Safe Investments in India
+
+If you are a salaried Indian looking to build wealth while saving on taxes, you have likely come across three names repeatedly: PPF (Public Provident Fund), FD (Fixed Deposit), and ELSS (Equity Linked Savings Scheme). All three qualify for tax deduction under Section 80C, but they differ dramatically in returns, risk, liquidity, and long-term wealth creation.
+
+This guide compares all three across every dimension that matters.
+
+## Quick Comparison Table
+
+| Feature | PPF | Fixed Deposit | ELSS |
+|---|---|---|---|
+| Returns (current) | 7.1% p.a. | 6.5–8.0% p.a. | 12–15% p.a. (historical) |
+| Risk | Zero | Zero | Market-linked (moderate-high) |
+| Lock-in | 15 years | Flexible | 3 years |
+| Tax on returns | Tax-free | Taxable | LTCG at 10% above ₹1L |
+| 80C deduction | Yes | Yes (5-yr FD only) | Yes |
+| Liquidity | Partial after 7 yrs | Premature withdrawal (penalty) | After 3 yrs |
+
+## PPF – The Safe Long-Term Compounder
+
+The Public Provident Fund is a government-backed savings scheme with a 15-year lock-in period. It is the safest wealth-building instrument available to Indian individuals.
+
+**How it works:** You deposit between ₹500 and ₹1.5 Lakhs per year. The government declares an interest rate quarterly (currently 7.1%). Interest compounds annually and the entire maturity amount — principal + interest — is tax-free.
+
+**Who should choose PPF:**
+- Conservative investors who cannot stomach market volatility
+- Those looking for predictable, risk-free wealth building
+- Anyone near retirement who wants capital preservation
+- Individuals who have already exhausted ELSS allocation
+
+**Drawback:** 7.1% returns barely beat inflation (currently 5–6% in India). Over 15 years, real returns are modest. PPF is safe but not a wealth multiplier.
+
+Use our [PPF Calculator](/ppf-calculator) to see exactly how much a regular contribution compounds over 15–25 years.
+
+## FD – Flexibility at the Cost of Returns
+
+Bank Fixed Deposits are the most familiar investment in India. You deposit a lump sum for a fixed period and earn a guaranteed interest rate.
+
+**Key points:**
+- Interest is fully taxable at your income tax slab rate (up to 30% for high earners)
+- TDS is deducted at 10% if interest exceeds ₹40,000/year (₹50,000 for senior citizens)
+- For 80C benefit, you need a 5-year tax-saving FD — which cannot be broken prematurely
+- Senior citizen FDs typically offer 0.25–0.50% higher rates
+
+**Who should choose FD:**
+- Retirees needing regular income (monthly interest payout option)
+- Short-term goals (1–3 years) where market risk is unacceptable
+- Emergency fund parking (liquid FDs or sweep-in accounts)
+
+**Drawback:** On a 8% FD, if you are in the 30% tax bracket, your effective post-tax return is just **5.6%**. After 6% inflation, your real return is negative.
+
+## ELSS – The Wealth Creator with a Tax Break
+
+ELSS funds are equity mutual funds with a mandatory 3-year lock-in that qualify for Section 80C deduction. Among all 80C instruments, ELSS has the shortest lock-in and historically the highest returns.
+
+**How it works:** You invest in an ELSS mutual fund (via SIP or lump sum). The fund invests primarily in equities. After 3 years, you can redeem. Long-term capital gains (LTCG) above ₹1 Lakh per year are taxed at 10%.
+
+**Historical returns:** Top ELSS funds have delivered 12–18% CAGR over 10-year periods. Even average ELSS funds outperform FD and PPF significantly over long horizons.
+
+**Who should choose ELSS:**
+- Young investors (age 25–40) with a 5+ year horizon
+- Those comfortable with short-term portfolio fluctuation
+- Anyone wanting the highest post-tax returns within the 80C limit
+- Investors who want to combine tax saving with wealth creation
+
+**Drawback:** Returns are market-linked. In a bad year (like 2022), ELSS funds can deliver negative returns. The 3-year lock-in means you cannot exit during a downturn.
+
+## Which is the Best Investment?
+
+There is no universally "best" option — it depends on your age, risk appetite, goals, and tax bracket.
+
+**The optimal strategy for most salaried Indians:**
+
+1. **₹1.5 Lakhs 80C allocation**: Put ₹1 Lakh in ELSS (via monthly SIP) and ₹50,000 in PPF — you get equity growth plus a government-guaranteed safety net.
+2. **Emergency fund**: Keep 3–6 months of expenses in a liquid FD or savings account.
+3. **Short-term goals**: Use FD for any goal within 2–3 years.
+4. **Post-retirement**: Shift from ELSS to FD + PPF as you approach 55–60.
+
+**Rule of thumb:** Subtract your age from 100 — that percentage should be in equity (ELSS/mutual funds). The rest in debt (PPF, FD).
+
+If you are 30, invest 70% in ELSS and 30% in PPF/FD. If you are 55, flip it.
+    `.trim(),
+  },
+
+  {
+    slug: 'how-to-reduce-emi',
+    title: 'How to Reduce Your Loan EMI: 7 Proven Strategies',
+    date: '2024-06-29',
+    readTime: '6 min read',
+    excerpt: 'Struggling with high EMIs? These 7 strategies — from part-prepayment to balance transfer — can significantly reduce your monthly loan burden without extending your tenure unnecessarily.',
+    keywords: 'how to reduce EMI, reduce home loan EMI, part prepayment benefits India',
+    relatedCalc: { label: 'Calculate Your EMI →', path: '/emi-calculator' },
+    content: `
+## Why Your EMI Feels Heavy
+
+A ₹50 Lakh home loan at 9% interest for 20 years costs ₹44,986 per month in EMI. Over 20 years, you will pay back ₹1.08 Crores — more than double the loan. Of your first few EMIs, over 60% goes toward interest, not principal.
+
+Understanding this is the first step to reducing your EMI burden strategically.
+
+## Strategy 1: Make Part-Prepayments Regularly
+
+This is the single most effective EMI reduction strategy. Whenever you have surplus money — an annual bonus, income tax refund, or gift — put it toward part-prepayment of your loan principal.
+
+**How it works:** Prepayment directly reduces your outstanding principal. Since interest is calculated on the outstanding principal, a lower principal means less interest every month.
+
+**Example:** On a ₹50L loan at 9% for 20 years:
+- Regular EMI only: Total interest = ₹57.9 Lakhs over 20 years
+- One prepayment of ₹2L at end of year 3: Interest saved = ₹5.4 Lakhs, tenure reduced by 14 months
+
+Most floating-rate home loans in India have **zero prepayment penalty** (RBI mandates this). Fixed-rate loans may charge 2%.
+
+**Tip:** After making a prepayment, ask your bank to reduce the tenure rather than the EMI. Tenure reduction saves far more in interest.
+
+## Strategy 2: Balance Transfer to a Lower Rate Lender
+
+If interest rates have fallen or your credit profile has improved, you may be able to transfer your loan to another bank at a lower rate.
+
+**When it makes sense:**
+- The rate difference is at least 0.5% (ideally 0.75%+)
+- You have more than 10 years remaining on the loan
+- Your current bank refuses to match the competitor's rate
+
+**Example:** Reducing from 9.5% to 8.75% on a ₹40L loan with 15 years remaining saves approximately ₹3.8 Lakhs in interest.
+
+**Costs to account for:** Processing fees (0.5–1% of loan), legal and technical charges (₹5,000–₹15,000), and the time cost. Run the numbers before transferring.
+
+## Strategy 3: Negotiate Your Rate with Your Current Bank
+
+Before going for a balance transfer, use the competing offer as leverage with your existing bank. Banks frequently offer rate reductions to retain good borrowers rather than let them leave.
+
+Call your bank's home loan department, mention the competitor's rate, and ask for a revision. Good borrowers (CIBIL 750+, no missed payments) often get 0.25–0.5% rate reduction without switching.
+
+## Strategy 4: Opt for a Longer Tenure (Strategically)
+
+If your goal is to reduce the monthly EMI amount rather than total interest paid, extending the tenure achieves this — at the cost of paying more interest overall.
+
+**Example:** ₹30L at 9%
+- 15-year tenure: EMI = ₹30,422
+- 20-year tenure: EMI = ₹26,992 (saves ₹3,430/month)
+
+This is useful if your cash flow is tight but you expect income to grow in the coming years. Use the EMI relief now, and make prepayments aggressively later when income grows.
+
+## Strategy 5: Switch from Fixed to Floating Rate
+
+If you took a fixed-rate loan when rates were high, and market rates have since fallen, switching to a floating rate can reduce your EMI substantially.
+
+Current home loan floating rates in India range from 8.5–9.5%, while some older fixed-rate loans are at 10–11%. The switch fee is typically 1–2% of outstanding principal, but can be recovered in 12–18 months of lower EMI.
+
+## Strategy 6: Pay One Extra EMI Per Year
+
+Instead of making large lump-sum prepayments, some borrowers find it easier to simply pay one extra EMI per year — a 13th payment.
+
+On a ₹40L, 20-year loan at 9%, paying one extra EMI per year reduces the total tenure by approximately 4 years and saves ₹8–9 Lakhs in interest.
+
+You can do this systematically: divide your monthly EMI by 12 and add that amount to every monthly payment as an additional principal payment.
+
+## Strategy 7: Increase EMI Proportionally with Salary Hikes
+
+When you receive an annual raise, increase your EMI by the same percentage. Most banks allow EMI revision once a year without any charges.
+
+If your EMI is ₹30,000 and you get a 15% salary hike, increase the EMI to ₹34,500. The extra ₹4,500 goes entirely toward principal, dramatically accelerating loan closure.
+
+## The Hierarchy: What to Do First
+
+1. First, ensure your emergency fund is intact (3–6 months of expenses)
+2. Then, close high-interest debt (credit cards, personal loans) before prepaying home loans
+3. Make annual prepayments from bonus/windfall income
+4. If rates are 0.75%+ lower elsewhere, explore balance transfer
+5. Gradually increase EMI as income grows
+
+Use our [EMI Calculator](/emi-calculator) to model different scenarios — different tenures, rates, and prepayment amounts — and find the combination that works best for your budget.
+    `.trim(),
+  },
+
+  {
+    slug: 'gratuity-guide-india',
+    title: 'Gratuity in India: Complete Guide to Rules, Formula and Calculation',
+    date: '2024-07-06',
+    readTime: '6 min read',
+    excerpt: 'Everything you need to know about gratuity in India — who is eligible, the Payment of Gratuity Act formula, tax exemption limits, and when your employer must pay.',
+    keywords: 'gratuity calculation formula India, gratuity eligibility, gratuity tax exemption India',
+    relatedCalc: { label: 'Calculate Your Gratuity →', path: '/gratuity-calculator' },
+    content: `
+## What is Gratuity?
+
+Gratuity is a statutory benefit paid by an employer to an employee as a token of appreciation for long service. It is governed by the **Payment of Gratuity Act, 1972** and applies to all organisations with 10 or more employees.
+
+Think of gratuity as a loyalty reward — the longer you serve, the more you receive. For many long-serving employees, gratuity amounts to several lakhs of rupees, making it one of the most significant components of the retirement corpus.
+
+## Who is Eligible for Gratuity?
+
+To receive gratuity, you must meet these conditions:
+
+1. **Minimum 5 years of continuous service** with the same employer
+2. The organisation must have had **10 or more employees** at any point during the last 12 months
+3. The trigger event must occur: **resignation, retirement, death, or disablement**
+
+**Important exceptions:**
+- If an employee dies or becomes disabled due to accident or disease, gratuity is paid **regardless of service duration** — the 5-year rule does not apply in these cases
+- Contract employees on fixed-term contracts are eligible if the contract is renewed (making their total service 5+ years)
+
+## The Gratuity Formula (Payment of Gratuity Act)
+
+For employees covered under the Act:
+
+**Gratuity = (Last drawn salary × 15 × Years of service) ÷ 26**
+
+Where:
+- **Last drawn salary** = Basic pay + Dearness Allowance (DA). House Rent Allowance, overtime, and bonuses are excluded.
+- **15** = Days per year the Act considers (half a month's salary per completed year)
+- **26** = Working days in a month (the Act assumes 26 working days)
+- **Years of service** = Rounded to the nearest half-year for the last year. Example: 7 years 7 months counts as 8 years; 7 years 4 months counts as 7 years.
+
+### Example Calculation
+
+Rohan has worked for 8 years and 7 months. His last drawn basic + DA = ₹60,000/month.
+
+- Years of service = 8 years 7 months → rounded to **9 years**
+- Gratuity = (60,000 × 15 × 9) ÷ 26 = ₹3,11,538
+
+Use our [Gratuity Calculator](/gratuity-calculator) to compute this instantly.
+
+## For Employees Not Covered Under the Act
+
+Some employees (e.g., in organisations with fewer than 10 staff) are not covered by the Act but may still receive gratuity based on their employment contract or company policy. The common formula used in such cases is:
+
+**Gratuity = (Last drawn salary × Half month's salary × Years of service)**
+
+= Monthly salary ÷ 2 × years of service
+
+This typically results in a slightly lower amount than the Act-based formula.
+
+## Gratuity Tax Exemption
+
+The tax treatment of gratuity depends on who you are:
+
+### For Government Employees
+The entire gratuity amount is **fully tax-exempt**, with no upper limit.
+
+### For Private Sector Employees (Covered Under the Act)
+The **minimum of the following three is tax-exempt**:
+1. Actual gratuity received
+2. ₹20 Lakhs (the statutory limit, enhanced in 2018 from ₹10L)
+3. (Last drawn salary × 15 × Years of service) ÷ 26
+
+Any amount above ₹20 Lakhs is taxable at your applicable income tax slab.
+
+### For Employees Not Covered Under the Act
+The minimum of these three is exempt:
+1. Actual gratuity received
+2. ₹20 Lakhs
+3. Half-month's average salary × Years of service (average salary = last 10 months' average)
+
+## When Must Your Employer Pay Gratuity?
+
+The employer must pay gratuity within **30 days** of the event that triggers entitlement (resignation, retirement, death, etc.).
+
+If payment is delayed beyond 30 days without a valid reason, the employer must pay **interest at the prescribed rate** (currently 10% p.a.) on the delayed amount.
+
+If an employer refuses to pay, you can file a complaint with the **Controlling Authority** (usually the Labour Commissioner of your state) under Section 7 of the Payment of Gratuity Act. The process is employer-friendly and decisions are usually made within 60 days.
+
+## Gratuity and Resignation Before 5 Years
+
+If you resign before completing 5 years of continuous service, you are **not entitled to gratuity** under the Act. This is a common misconception — even if you have served 4 years and 11 months, your eligibility is zero.
+
+However, some progressive employers voluntarily pay gratuity on a pro-rata basis even for shorter tenures. Check your employment contract or HR policy for this.
+
+## Planning Around Gratuity
+
+If you are 3–4 years into a job, the gratuity cliff at 5 years is worth considering:
+- Completing 5 years unlocks the entire gratuity amount
+- For a ₹1L basic salary with 5 years: gratuity = ₹28,846 — a meaningful one-time payout
+
+When evaluating a job offer, factor in how much gratuity you would forfeit from your current employer if you leave before 5 years.
+    `.trim(),
+  },
+
+  {
+    slug: 'understanding-salary-slip-ctc',
+    title: 'How to Read Your Salary Slip: CTC, Gross Salary and Take-Home Pay Explained',
+    date: '2024-07-13',
+    readTime: '7 min read',
+    excerpt: 'Confused by the difference between CTC and in-hand salary? This guide breaks down every component of an Indian salary slip — from HRA to PF to professional tax.',
+    keywords: 'CTC vs gross salary vs take home salary, salary slip components India, how to calculate in-hand salary',
+    relatedCalc: { label: 'Calculate Take-Home After Hike →', path: '/salary-hike-calculator' },
+    content: `
+## Why Your CTC Is Never What Lands in Your Account
+
+"Your CTC is ₹12 Lakhs per annum" — but your monthly in-hand salary is ₹72,000, which is only ₹8.64 Lakhs per year. Where did ₹3.36 Lakhs go?
+
+This gap confuses most new employees and causes salary negotiation mistakes. This guide explains exactly how the ₹12 LPA becomes ₹72,000 in-hand, component by component.
+
+## What is CTC?
+
+CTC stands for **Cost to Company** — the total annual cost an employer bears for an employee. It includes everything: your salary, employer's PF contribution, gratuity, health insurance premium, meal vouchers, and any other benefit the company provides.
+
+CTC is not your salary. It is the employer's total expenditure on you.
+
+## The Salary Structure: From CTC to In-Hand
+
+A typical ₹12 LPA CTC breaks down roughly as:
+
+### Gross Salary Components (what goes into your payslip)
+
+| Component | Annual Amount | Notes |
+|---|---|---|
+| Basic Salary | ₹4,80,000 | Usually 40–50% of CTC |
+| HRA | ₹2,40,000 | Typically 50% of basic (metro) |
+| Special Allowance | ₹1,80,000 | Balancing component |
+| Leave Travel Allowance (LTA) | ₹24,000 | Tax-exempt twice in 4 years |
+| Food Allowance | ₹26,400 | Tax-exempt up to ₹26,400/year |
+| **Gross Salary** | **₹9,50,400** | |
+
+### Employer Contributions (not in your payslip but part of CTC)
+
+| Component | Annual Amount |
+|---|---|
+| Employer PF (12% of basic) | ₹57,600 |
+| Employer ESIC (if applicable) | — |
+| Gratuity (4.81% of basic) | ₹23,088 |
+| Health Insurance Premium | ₹36,000 (approx.) |
+| **Total Employer Additions** | **₹1,16,688** |
+
+Gross Salary (₹9,50,400) + Employer Additions (₹1,16,688) ≈ ₹10,67,088. The remaining ₹1,32,912 difference accounts for variable pay, bonuses, or other perks included in CTC.
+
+## Deductions: What Gets Cut From Your Gross Salary
+
+Starting from ₹9,50,400 gross, the following are deducted before you get your in-hand pay:
+
+| Deduction | Annual Amount |
+|---|---|
+| Employee PF (12% of basic) | ₹57,600 |
+| Professional Tax (state-specific) | ₹2,400 (₹200/month) |
+| Income Tax (TDS) | ~₹48,000 (varies by regime/deductions) |
+| **Total Deductions** | ~₹1,08,000 |
+
+**Net Take-Home = Gross Salary − Deductions = ₹9,50,400 − ₹1,08,000 = ₹8,42,400 per year = ₹70,200/month**
+
+## Key Salary Slip Components Explained
+
+### Basic Salary
+This is the fixed, taxable core of your salary. Everything is calculated as a percentage of basic: PF, HRA, gratuity, leave encashment. Higher basic = higher PF and gratuity (good for long term), but also higher taxes. Some employers keep basic low to reduce their PF liability.
+
+### House Rent Allowance (HRA)
+HRA is partially tax-exempt if you live in a rented house. The exempt amount is the **minimum of**:
+1. Actual HRA received
+2. 50% of basic (metro) or 40% (non-metro)
+3. Actual rent paid minus 10% of basic
+
+If you live with parents, you can still claim HRA by paying rent to them (they declare it as income).
+
+### Leave Travel Allowance (LTA)
+Tax-exempt for two trips in a block of four years. Only economy airfare or 1st class rail fare is exempt. You must submit actual travel bills to your employer.
+
+### Special Allowance
+This is the residual component — whatever is left after structuring other components to fit the CTC. It is fully taxable and has no exemption. Many employees do not realise that this is often 15–25% of their salary and fully taxable.
+
+### Provident Fund (PF)
+Both you and your employer contribute 12% of your basic salary to your EPF account. Your contribution reduces your take-home but builds a tax-free retirement corpus. The interest earned (currently 8.15%) is also tax-free on withdrawal after 5 years of service.
+
+## The New Tax Regime and Salary Structure
+
+Under the new tax regime (default from FY 2024-25), most salary exemptions — HRA, LTA, food allowance — are not available. The new regime instead offers a standard deduction of ₹75,000 and lower slab rates.
+
+If you claim significant HRA (especially metro city renters) and have 80C investments, the old regime may still save you more tax. Use our [Income Tax Calculator](/income-tax-calculator) to compare both regimes for your exact salary.
+
+## How to Negotiate a Better Salary Structure
+
+When you receive an offer, do not just look at the CTC number. Ask for the salary breakup and check:
+- Is the basic salary at least 40% of CTC? (Higher basic = more PF, better gratuity)
+- Is the variable/bonus a guaranteed amount or target-based?
+- What benefits are "in CTC" — health insurance (useful) vs. gratuity (only after 5 years)?
+- Is there a joining bonus being included in CTC to inflate the number?
+
+Understanding your salary slip is the foundation of financial planning. Once you know what actually hits your account, you can use our [Salary Hike Calculator](/salary-hike-calculator) to see exactly how a raise changes your in-hand pay.
+    `.trim(),
+  },
+
+  {
+    slug: 'improve-cibil-score-india',
+    title: 'How to Improve Your CIBIL Score: A Practical Guide for Indians',
+    date: '2024-07-20',
+    readTime: '7 min read',
+    excerpt: 'A low CIBIL score costs you higher loan rates or outright rejections. This practical guide explains exactly what affects your score and the fastest legal ways to improve it.',
+    keywords: 'how to improve CIBIL score India, increase credit score fast, CIBIL score factors',
+    relatedCalc: { label: 'Check Home Loan Eligibility →', path: '/home-loan-eligibility-calculator' },
+    content: `
+## Why Your CIBIL Score Matters More Than You Think
+
+Your CIBIL score (or credit score from Experian/CRIF/Equifax) is a three-digit number between 300 and 900. Every bank and NBFC checks it when you apply for a home loan, car loan, personal loan, or credit card.
+
+A score of 750+ gets you the best interest rates. A score below 650 can mean outright rejection — or loans at 18–24% interest, which is the rate of last resort.
+
+A 0.5% lower home loan rate on a ₹50L loan over 20 years saves ₹3.5 Lakhs. Your credit score is, quite literally, worth lakhs of rupees.
+
+## How CIBIL Score is Calculated
+
+CIBIL uses the following factors (approximate weightages):
+
+| Factor | Weight |
+|---|---|
+| Payment history (on-time payments) | 35% |
+| Credit utilisation ratio | 30% |
+| Length of credit history | 15% |
+| Credit mix (secured vs unsecured) | 10% |
+| New credit enquiries | 10% |
+
+## The 7 Most Effective Ways to Improve Your Score
+
+### 1. Pay All EMIs and Credit Card Bills On Time (35% of score)
+
+This is the single biggest factor. Even one missed payment can drop your score by 50–100 points. Even one payment that is 30 days late stays on your record for 7 years.
+
+**Action:** Set up auto-pay for the minimum amount due on all credit cards and EMIs. Never miss a payment. If you genuinely cannot pay the full amount, paying even the minimum due prevents a missed payment mark.
+
+### 2. Reduce Your Credit Utilisation Ratio (30% of score)
+
+Credit utilisation is the percentage of your total credit limit you are using. If your combined credit card limit is ₹2 Lakhs and your outstanding balance is ₹1.4 Lakhs, your utilisation is 70% — dangerously high.
+
+**Ideal utilisation: below 30%**. Above 50% starts hurting your score significantly.
+
+**Actions:**
+- Pay down credit card balances before the statement date (not just by the due date)
+- Request a limit increase on existing cards (without increasing spending)
+- Do not close old credit cards — their unused limit helps your ratio
+
+### 3. Check Your Credit Report for Errors (Free Fix)
+
+CIBIL reports frequently contain errors — old settled loans still showing as outstanding, accounts that are not yours, incorrect payment histories. These errors can suppress your score unfairly.
+
+**How to fix:**
+1. Get your free CIBIL report at cibil.com (one free report per year)
+2. Check each account for accuracy
+3. Raise a dispute online for any errors
+4. CIBIL must resolve disputes within 30 days
+
+Many Indians find 5–15 point improvements just from correcting errors, with no other changes.
+
+### 4. Do Not Apply for Multiple Loans or Cards Simultaneously
+
+Every time you apply for credit, the lender makes a "hard enquiry" on your report. Each hard enquiry drops your score by 5–10 points. Multiple hard enquiries in a short period signal desperation and further reduce the score.
+
+**Rule:** Do not apply for more than one credit product every 6 months unless absolutely necessary. If you are shopping for home loan rates, get quotes from multiple lenders within a 14-day window — CIBIL counts multiple home loan enquiries in a short period as one.
+
+### 5. Build Credit History with a Secured Credit Card
+
+If you have no credit history or a very poor score, a secured credit card is the fastest way to start building. You deposit a fixed amount (₹10,000–₹50,000) as security, and the bank gives you a credit card with a limit equal to your deposit.
+
+Use this card for small purchases, pay the full balance every month, and your score will start rising within 6 months.
+
+### 6. Maintain a Mix of Credit Products
+
+Having only credit cards (all unsecured credit) is slightly worse than having a mix of secured (home loan, car loan) and unsecured (credit cards, personal loan) debt.
+
+This does not mean you should take unnecessary loans. But if you have only credit cards and are planning to take a home loan, taking it actually improves your credit mix and, over time, your score.
+
+### 7. Do Not Close Old Credit Cards
+
+Length of credit history contributes 15% to your score. An old credit card you have had for 8 years is helping your score by showing a long, stable credit relationship.
+
+Closing an old card also reduces your total credit limit, which increases your credit utilisation ratio and hurts your score doubly.
+
+Only close a credit card if it has an annual fee that is not worth paying and is not your oldest card.
+
+## Realistic Timeline for Score Improvement
+
+| Starting Score | Timeline to Reach 750+ |
+|---|---|
+| 700–740 (minor issues) | 3–6 months |
+| 650–699 (missed payments, high utilisation) | 6–12 months |
+| 600–649 (multiple missed payments) | 12–18 months |
+| Below 600 (defaults, settlements) | 18–36 months |
+
+There are no legal shortcuts to instantly improve a legitimately poor score. Anyone promising a 100-point increase in 30 days is running a scam.
+
+## Before Applying for a Home Loan
+
+Use the 6 months before applying for a home loan to:
+1. Pay down all credit card balances to below 30% utilisation
+2. Avoid any new credit applications
+3. Check and dispute any report errors
+4. Keep all EMI payments on time
+
+A CIBIL score of 750+ unlocks the best home loan rates. Use our [Home Loan Eligibility Calculator](/home-loan-eligibility-calculator) to see how your income and credit profile together determine how much loan you can get.
+    `.trim(),
+  },
+]
+
 export function getPost(slug) {
   return posts.find(p => p.slug === slug) || null
 }

@@ -75,6 +75,37 @@ export default function PpfCalculator() {
         faqs={FAQS}
         pageUrl="/ppf-calculator"
         description="PPF calculator India. Calculate Public Provident Fund corpus, interest earned and EEE tax benefits."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">Why PPF Is India's Best Risk-Free Investment</h2>
+            <p>
+              The Public Provident Fund (PPF) is a government-backed savings scheme offering
+              <strong> EEE (Exempt-Exempt-Exempt) tax status</strong> — your investment qualifies for
+              Section 80C deduction, the interest earned is tax-free, and the entire maturity amount is
+              also exempt from tax. No other investment in India offers this triple tax benefit on a
+              risk-free product.
+            </p>
+            <p>
+              PPF interest is compounded annually and declared quarterly by the government. The current rate
+              is <strong>7.1% p.a.</strong> (Q1 FY2024-25). This rate is slightly above most bank FD rates
+              — and because the interest is tax-free, the effective post-tax return is significantly higher
+              for those in the 20% or 30% tax bracket.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">PPF vs FD: Post-Tax Comparison</h3>
+            <p>
+              A 7.5% bank FD in the 30% tax bracket gives a post-tax return of 5.25%. A 7.1% PPF gives an
+              effective post-tax return of <strong>7.1%</strong> — 1.85% higher per year. On ₹1.5 Lakhs
+              invested annually for 15 years, this difference compounds to over ₹5 Lakhs extra in your
+              favour with PPF.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">The 15-Year Lock-In Is a Feature, Not a Bug</h3>
+            <p>
+              PPF's 15-year lock-in forces long-term thinking. After 15 years, you can extend in 5-year
+              blocks indefinitely. Many investors use PPF as their retirement corpus — investing ₹1.5 Lakhs
+              per year from age 30, they accumulate over ₹62 Lakhs by age 55, completely tax-free.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Yearly Investment"   value={yearly} onChange={setYearly} min={500}  max={150000} step={500}  prefix="₹" />
         <SliderInput label="PPF Interest Rate"   value={rate}   onChange={setRate}   min={6}    max={9}      step={0.1}  suffix="%" />

@@ -15,6 +15,11 @@ const ICONS = {
   'how-to-start-sip-in-india': '📈',
   'home-loan-eligibility-india': '🏠',
   'old-vs-new-tax-regime': '💼',
+  'ppf-vs-fd-vs-elss': '🏦',
+  'how-to-reduce-emi': '💳',
+  'gratuity-guide-india': '🎁',
+  'understanding-salary-slip-ctc': '💰',
+  'improve-cibil-score-india': '⭐',
 }
 
 export default function BlogIndex() {

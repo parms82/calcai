@@ -45,9 +45,11 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm mb-3">Company</h4>
             <ul className="space-y-1 text-xs">
               {[
-                ['Pricing', '/pricing'],
+                ['About Us', '/about'],
                 ['Blog', '/blog'],
-                ['API Docs', '/api-docs'],
+                ['Contact', '/contact'],
+                ['Pricing', '/pricing'],
+                ['Privacy Policy', '/privacy-policy'],
               ].map(([label, to]) => (
                 <li key={to}><Link to={to} className="hover:text-white transition-colors">{label}</Link></li>
               ))}

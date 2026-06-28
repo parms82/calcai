@@ -6,7 +6,7 @@ import AffiliateCard from './AffiliateCard'
 import Breadcrumb from './Breadcrumb'
 import FAQSection from './FAQSection'
 
-export default function CalcLayout({ title, subtitle, children, result, affiliatePartner, calcType, aiHint, pageUrl, description, faqs }) {
+export default function CalcLayout({ title, subtitle, children, result, affiliatePartner, calcType, aiHint, pageUrl, description, faqs, intro }) {
   const schema = pageUrl ? {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
@@ -56,6 +56,15 @@ export default function CalcLayout({ title, subtitle, children, result, affiliat
       </div>
 
       {affiliatePartner && <AffiliateCard partner={affiliatePartner} calculator={calcType} />}
+
+      {intro && (
+        <section className="mt-8 rounded-2xl bg-white border border-gray-100 shadow-sm p-6 sm:p-8">
+          <div className="prose prose-sm prose-gray max-w-none text-gray-700 leading-relaxed">
+            {intro}
+          </div>
+        </section>
+      )}
+
       <AIAssistant calcType={calcType} hint={aiHint} />
       {faqs?.length > 0 && <FAQSection faqs={faqs} />}
     </div>

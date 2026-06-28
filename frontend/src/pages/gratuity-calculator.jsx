@@ -49,6 +49,36 @@ export default function GratuityCalculator() {
         faqs={FAQS}
         pageUrl="/gratuity-calculator"
         description="Free gratuity calculator India. Calculate gratuity amount as per Payment of Gratuity Act 1972."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">Gratuity in India: What You Are Entitled To</h2>
+            <p>
+              Gratuity is a statutory benefit under the <strong>Payment of Gratuity Act, 1972</strong>. Any
+              employee who has completed 5 or more years of continuous service with an employer (who has
+              10+ employees) is entitled to receive gratuity on resignation, retirement, death, or disability.
+            </p>
+            <p>
+              The formula for employees covered under the Act is: <em>Gratuity = (Basic + DA) × 15 × Years of
+              Service ÷ 26</em>. The divisor 26 represents the number of working days in a month, and 15
+              represents half a month's salary per completed year of service. For employees not covered, the
+              divisor is 30.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">The 5-Year Threshold</h3>
+            <p>
+              Many employees don't realise that even <strong>4 years and 11 months</strong> of service means
+              zero gratuity. The 5-year threshold is strict (with the exception of death/disability). If you
+              are 3–4 years into a job, factoring in the gratuity cliff can meaningfully influence the timing
+              of a job switch.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">Tax Treatment of Gratuity</h3>
+            <p>
+              Gratuity up to <strong>₹20 Lakhs is completely tax-free</strong> for private sector employees
+              covered under the Act. Government employees enjoy full exemption with no upper limit. Any amount
+              above ₹20 Lakhs is taxed at your applicable income tax slab rate. The ₹20L limit was increased
+              from ₹10L in 2018.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Basic + DA (Monthly)" value={salary} onChange={setSalary} min={10000} max={500000} step={1000} prefix="₹" />
         <SliderInput label="Years of Service" value={years} onChange={setYears} min={1} max={40} suffix=" yr" />

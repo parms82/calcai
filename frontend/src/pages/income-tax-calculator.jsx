@@ -122,6 +122,36 @@ export default function IncomeTaxCalculator() {
         faqs={FAQS}
         pageUrl="/income-tax-calculator"
         description="Income tax calculator FY 2024-25 India. Compare old vs new tax regime and calculate total tax payable."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">Old vs New Tax Regime: Which Saves You More?</h2>
+            <p>
+              From FY 2024-25, the <strong>new tax regime is the default</strong> for all taxpayers. If you do not
+              inform your employer otherwise, your TDS will be deducted under the new regime. The choice between
+              regimes can mean a difference of ₹10,000–₹50,000 in annual tax depending on your income and deductions.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">New Regime: Lower Rates, No Deductions</h3>
+            <p>
+              The new regime offers lower slab rates and a standard deduction of ₹75,000. It eliminates most
+              exemptions — HRA, LTA, 80C, 80D, home loan interest. If your total deductions are small, the new
+              regime almost always wins. Income up to ₹7 Lakhs is effectively <strong>zero tax</strong> under the
+              new regime due to the Section 87A rebate.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">Old Regime: Worth It If Deductions Are High</h3>
+            <p>
+              The old regime allows powerful deductions: <strong>₹1.5L under 80C</strong> (PPF, ELSS, LIC),
+              HRA exemption (critical for metro renters), home loan interest up to ₹2L under Section 24(b), and
+              ₹25,000–₹75,000 under 80D for health insurance. If your combined deductions exceed ₹3.5–4 Lakhs,
+              the old regime typically results in lower tax. Use the "Compare Both" mode above to find your answer
+              instantly.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">4% Health & Education Cess</h3>
+            <p>
+              Both regimes levy a 4% health and education cess on the calculated income tax. This is automatically
+              included in the results shown above.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Annual Income"    value={income}  onChange={setIncome}  min={250000} max={10000000} step={50000} prefix="₹" />
         <SliderInput label="80C Deductions"  value={ded80C}  onChange={setDed80C}  min={0}      max={150000}   step={5000}  prefix="₹" />

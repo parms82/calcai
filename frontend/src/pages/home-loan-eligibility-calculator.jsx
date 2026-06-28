@@ -57,6 +57,37 @@ export default function HomeLoanEligibilityCalculator() {
         faqs={FAQS}
         pageUrl="/home-loan-eligibility-calculator"
         description="Home loan eligibility calculator India. Check maximum loan amount based on your income and existing EMIs."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">How Banks Calculate Your Home Loan Eligibility</h2>
+            <p>
+              Banks use a metric called <strong>FOIR (Fixed Obligation to Income Ratio)</strong> to determine
+              your home loan eligibility. The rule is simple: your total monthly EMI obligations — including
+              the proposed new loan — should not exceed 40–50% of your net monthly income. If your income
+              is ₹1 Lakh and you have no existing EMIs, the bank will approve a loan whose EMI is at most
+              ₹50,000 per month.
+            </p>
+            <p>
+              Back-calculating from the maximum EMI to the loan amount: at 8.5% interest over 20 years,
+              every ₹1 Lakh of loan requires approximately ₹868 in monthly EMI. So an allowable EMI of
+              ₹50,000 translates to a <strong>maximum loan of approximately ₹57.5 Lakhs</strong>.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">Other Factors Banks Consider</h3>
+            <p>
+              Beyond FOIR, your eligibility also depends on your <strong>CIBIL score</strong> (750+ gets
+              the best rates), your <strong>age</strong> (the loan must be repaid before retirement age),
+              your <strong>employment type</strong> (government employees get the most generous terms), and
+              the <strong>property valuation</strong> (banks typically fund 75–90% of the property value).
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">5 Ways to Increase Your Eligibility</h3>
+            <p>
+              Add a co-applicant (combines incomes), close existing personal or car loans before applying,
+              choose a longer tenure (lowers per-month EMI requirement), improve your CIBIL score above 750,
+              and include all documented income sources — rental income, professional fees, and freelance
+              earnings all count if supported by bank statements and ITR.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Monthly Net Income" value={income} onChange={setIncome} min={20000} max={500000} step={5000} prefix="₹" />
         <SliderInput label="Existing EMIs" value={existingEMIs} onChange={setExistingEMIs} min={0} max={100000} step={1000} prefix="₹" />

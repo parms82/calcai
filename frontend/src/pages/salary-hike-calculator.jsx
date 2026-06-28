@@ -79,6 +79,34 @@ export default function SalaryHikeCalculator() {
         faqs={FAQS}
         pageUrl="/salary-hike-calculator"
         description="Salary hike calculator India. Find your new CTC, monthly gross and in-hand salary after appraisal."
+        intro={
+          <div className="space-y-4">
+            <h2 className="text-lg font-bold text-gray-900">Why Your In-Hand Hike Is Always Less Than the CTC Hike</h2>
+            <p>
+              A 20% salary hike on a ₹10L CTC sounds like ₹2 Lakhs more per year — but your monthly
+              in-hand increase will be closer to ₹12,000–₹14,000, not ₹16,666. This gap exists because:
+              (1) your <strong>income tax slab increases</strong> with higher income, (2) your
+              <strong>PF deduction</strong> rises proportionally with basic salary, and (3) some hike
+              may go to the gratuity component, which you only receive after 5 years of service.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">CTC vs In-Hand: The Real Numbers</h3>
+            <p>
+              For a typical salaried employee in India, the monthly in-hand salary is approximately
+              <strong>70–78% of the monthly CTC</strong>. The remaining 22–30% covers employer PF
+              contribution, gratuity provision, health insurance premium, and income tax deducted at source.
+              The exact figure depends heavily on your tax regime choice, deductions claimed, and your
+              employer's salary structuring.
+            </p>
+            <h3 className="text-base font-semibold text-gray-800">How to Maximise Your In-Hand From a Hike</h3>
+            <p>
+              Ask your HR to restructure your new salary with higher special allowance and lower basic (this
+              reduces PF, though it also lowers future gratuity). Choose the tax regime that saves more tax for
+              your new income level — a regime that was optimal at ₹10L CTC may not be optimal at ₹12L. Use
+              our <a href="/income-tax-calculator" className="text-emerald-700 underline">Income Tax Calculator</a>{' '}
+              to compare both regimes after the hike.
+            </p>
+          </div>
+        }
       >
         <SliderInput label="Current Annual CTC"            value={ctc}        onChange={setCtc}        min={200000} max={5000000} step={50000} prefix="₹" />
         <SliderInput label="Hike Percentage"               value={hike}       onChange={setHike}       min={1}      max={100}               suffix="%" />
